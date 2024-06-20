@@ -36,16 +36,21 @@ input{
     height: 48px;
     width: 100%;
     border: none;
-    background-color: rgb(214, 232, 226);
-    color: rgb(50, 80, 106);
+    background-color: #f1f1f1;
+    color: rgb(1, 11, 19);
     display: flex;
     
 }
 button{
-    width: 85%;
-    height: 46px;
+    width: 100%;
+    height: 48px;
     margin: 18px;
+    background-color: #1bb37b;
+    border: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 img{
     height: 100%;
@@ -53,4 +58,12 @@ img{
 }
 label{
     align-self: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h4{
+    align-self: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: rgb(20, 14, 204);
 }
